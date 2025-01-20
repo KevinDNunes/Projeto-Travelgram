@@ -6,23 +6,51 @@
   padding: 1rem;
   height: 4.5rem;
 
-  border: 1px solid red;
+  background-color: var(--surface-color);
 }
 
-.profile-lupa {
+.desktop p {
+  display: none;
+  font: var(--pr-md);
+  color: var(--text-color-secondary);
+}
 
+.desktop p:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.profile {
   display: flex;
   align-items: center;
   gap: 1rem;
-
-  & img:nth-child(1) { 
-    width: 1.5rem;
-    height: 1.5rem;
-    }
-
-  & img:nth-child(2) { 
-  width: 2.5rem;
-  height: 2.5rem;
-  }
 }
 
+.profile-lupa img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.profile-lupa img:hover {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  cursor: pointer;
+}
+
+.profile-perfil img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.profile-perfil img:hover {
+  cursor: pointer;
+}
+
+@media ( width >= 64em) {
+  .desktop p {
+    display: flex;
+  }
+}
