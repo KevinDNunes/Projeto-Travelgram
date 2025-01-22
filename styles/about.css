@@ -3,7 +3,7 @@
   flex-direction: column;
  
   padding: 2rem;
-  background-color: var(--surface-color);
+  background-color: var(--skeleton-color);
 }
 
 .main {

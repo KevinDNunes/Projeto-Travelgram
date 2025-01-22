@@ -6,7 +6,7 @@
   padding: 1rem;
   height: 4.5rem;
 
-  background-color: var(--surface-color);
+  background-color: var(--skeleton-color);
 }
 
 .desktop p {

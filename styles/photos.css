@@ -2,14 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 1rem;
-
-  background-color: var(--skeleton-color) ;
+  background-color: var(--surface-color) ;
 }
 
 .image-grid {
   display: flex;
   flex-direction: column;
-
   width: 100vh;
   gap: 1rem; 
 }
