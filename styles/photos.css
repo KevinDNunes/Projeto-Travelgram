@@ -1,0 +1,35 @@
+.images {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+
+  background-color: var(--skeleton-color) ;
+}
+
+.image-grid {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vh;
+  gap: 1rem; 
+}
+
+@media (width >= 64em) {
+
+  .images {
+    width: 100%;
+    padding: 1.5rem 2rem;  
+    
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem ; 
+    padding-left: 1rem;
+  }
+}
+
